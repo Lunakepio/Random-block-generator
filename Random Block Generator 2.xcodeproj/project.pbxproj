@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9810A2C42BF7086700577D97 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810A2C32BF7086700577D97 /* Blur.swift */; };
+		9810A2CA2BF7115300577D97 /* OutlinedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810A2C92BF7115300577D97 /* OutlinedLabel.swift */; };
+		986172772BF8FCFF003C9C78 /* circle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 986172732BF8FCFF003C9C78 /* circle_white.png */; };
+		986172782BF8FCFF003C9C78 /* circle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 986172732BF8FCFF003C9C78 /* circle_white.png */; };
+		986172792BF8FCFF003C9C78 /* circle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 986172732BF8FCFF003C9C78 /* circle_white.png */; };
 		988FB82E2BF5DE6D00761E29 /* Random_Block_Generator_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB82D2BF5DE6D00761E29 /* Random_Block_Generator_2App.swift */; };
 		988FB8302BF5DE6D00761E29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB82F2BF5DE6D00761E29 /* ContentView.swift */; };
 		988FB8322BF5DE6F00761E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988FB8312BF5DE6F00761E29 /* Assets.xcassets */; };
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9810A2C32BF7086700577D97 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		9810A2C92BF7115300577D97 /* OutlinedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedLabel.swift; sourceTree = "<group>"; };
+		986172732BF8FCFF003C9C78 /* circle_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle_white.png; path = ../../Downloads/circle_white.png; sourceTree = "<group>"; };
 		988FB82A2BF5DE6D00761E29 /* Random Block Generator 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Block Generator 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		988FB82D2BF5DE6D00761E29 /* Random_Block_Generator_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Block_Generator_2App.swift; sourceTree = "<group>"; };
 		988FB82F2BF5DE6D00761E29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 		988FB8212BF5DE6D00761E29 = {
 			isa = PBXGroup;
 			children = (
+				986172732BF8FCFF003C9C78 /* circle_white.png */,
 				988FB82C2BF5DE6D00761E29 /* Random Block Generator 2 */,
 				988FB83D2BF5DE6F00761E29 /* Random Block Generator 2Tests */,
 				988FB8472BF5DE6F00761E29 /* Random Block Generator 2UITests */,
@@ -96,6 +105,8 @@
 			children = (
 				988FB82D2BF5DE6D00761E29 /* Random_Block_Generator_2App.swift */,
 				988FB82F2BF5DE6D00761E29 /* ContentView.swift */,
+				9810A2C92BF7115300577D97 /* OutlinedLabel.swift */,
+				9810A2C32BF7086700577D97 /* Blur.swift */,
 				988FB8312BF5DE6F00761E29 /* Assets.xcassets */,
 				988FB8332BF5DE6F00761E29 /* Preview Content */,
 			);
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986172772BF8FCFF003C9C78 /* circle_white.png in Resources */,
 				988FB8352BF5DE6F00761E29 /* Preview Assets.xcassets in Resources */,
 				988FB8322BF5DE6F00761E29 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986172782BF8FCFF003C9C78 /* circle_white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986172792BF8FCFF003C9C78 /* circle_white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9810A2C42BF7086700577D97 /* Blur.swift in Sources */,
 				988FB8302BF5DE6D00761E29 /* ContentView.swift in Sources */,
+				9810A2CA2BF7115300577D97 /* OutlinedLabel.swift in Sources */,
 				988FB82E2BF5DE6D00761E29 /* Random_Block_Generator_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
